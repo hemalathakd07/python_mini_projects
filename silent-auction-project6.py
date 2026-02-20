@@ -1,4 +1,3 @@
-# silent auction program:
 import os
 def bid_winner(bidder_details):
     highest_bid_price=0
