@@ -1,10 +1,3 @@
-# caesar cipher
-# a technique to send secret messages 
-# it will be encrypted and it will be sent , hacker can't hack messages so easily
-
-# to do both encryption and decryptino change only shift_key
-# for encryption shift_key remains the same , for decryption shift_key=shift_key*-1
-
 alphabets=['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z']
 
 def encryption(plain_text,shift_key):
