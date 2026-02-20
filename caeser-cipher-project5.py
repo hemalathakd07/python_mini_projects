@@ -32,7 +32,6 @@ def decryption(cipher_text,shift_key):
     print("The decrypted text is",decrypted_text)
 
 wanna_end=False
-
 while not wanna_end:
     what_to_do=input("Enter 'encrypt' to perform encryption or 'decrypt' to perform decryption:")
     text=input("Enter the text:").lower()
